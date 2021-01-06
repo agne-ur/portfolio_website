@@ -132,7 +132,7 @@ img {
     position: fixed;
     top: var(--header-height);
     right: -100%;
-    width: 80%;
+    width: 40%;
     height: 100%;
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.3);
@@ -156,7 +156,7 @@ img {
 .nav__logo img {
   width: 50%;
   height: 50%;
-  /* margin-bottom: px; */
+  margin-left: -20px;
 }
 
 .nav__toggle {
@@ -235,7 +235,7 @@ img {
 .about__img img {
   width: 110px;
   height: 130px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .about__subtitle {
   font-size: var(--h2-font-size);
@@ -423,8 +423,8 @@ img {
     align-items: inherit;
   }
   .about__img img {
-    width: 170px;
-    height: 200px;
+    width: 140px;
+    height: 170px;
   }
 
   .skills__container {
